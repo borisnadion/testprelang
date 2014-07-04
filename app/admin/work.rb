@@ -1,4 +1,5 @@
 ActiveAdmin.register Work do
+  permit_params :body
 
   
   # See permitted parameters documentation:
